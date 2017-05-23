@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zwg.upchengedemo.view.SlideDetailsLayout
+    android:id="@+id/slidedetails"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:default_panel="front"
+    app:duration="300"
+    app:percent="0.4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/slidedetails_front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<include layout="@layout/scroll_fragment"/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/jjl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_bg"/>
+    </RelativeLayout>
+
+   <!-- <WebView
+        android:id="@+id/slidedetails_behind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF0"/>-->
+
+</com.zwg.upchengedemo.view.SlideDetailsLayout>

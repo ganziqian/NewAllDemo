@@ -1,0 +1,1 @@
+include ':app', ':sidemenulib', ':teseapp', ':rsademo', ':animodemo', ':upchengedemo', ':ptr'
